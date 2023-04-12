@@ -1,0 +1,37 @@
+[
+    {
+        "model": "auth.user",
+        "pk": 1,
+        "fields": {
+            "password": "pbkdf2_sha256$600000$MYu6c9HZSn69zKQffMlbWP$P6P1bm9yLC7eTEWIaD+Jl+tswZubzBC9XrGrfa4BeBw=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "john",
+            "first_name": "",
+            "last_name": "",
+            "email": "lennon@thebeatles.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2023-04-11T14:53:04.813Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "resume.resume",
+        "pk": 1,
+        "fields": {
+            "owner": 1,
+            "status": "status3",
+            "grade": "grade",
+            "specialty": "spec",
+            "salary": "selary",
+            "education": "education",
+            "experience": "exp",
+            "portfolio": "www.123.com",
+            "title": "",
+            "phone": "3131231",
+            "email": "ab@cd.ef"
+        }
+    }
+]
